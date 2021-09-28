@@ -62,6 +62,22 @@ When sleeping after each day, each person’s immune system will naturally add 5
 Health points are not required to be in an integer form, so each time you need to check if a person is contagious or not, the person’s current health should be rounded to the nearest integer. The maximum possible health of a healthy person is 100 (the health point value of each person should be limited to this maximum), and the minimum possible value is 0. A person with 0 health can still recover, but cannot lose any further health points.
 
 
+
+## Meeting probability
+
+Each day, a person may or may not visit another person for a meeting. For each person, the probability that they will travel to visit one of their friends depends on social distancing regulations. A single meeting probability parameter will be applied to all people in the group to determine the effect of a certain level of social distancing. This probability is a fraction of 1. For example, running the simulation with a meeting probability of 1.0 means that every day, every person will leave home to visit all of their friends, and all their friends will also travel to visit them during the same day. A probability of 0.0 means nobody can leave home to visit anyone else, and a probability of 0.333 means there is a 33.3% random chance of each visit happening.
+
+## Viral load
+
+The virus spreads when a contagious person2 passes a viral load to a person they are visiting, or a person who has visited them. The term ‘viral load’ is a measure of the quantity of virus in the air which the other person breathes in when they are visiting and/or being visited by any contagious person. A person can be affected by a viral load even if they are already partly sick.
+
+
+The viral load produced by a contagious person is given by the following formula (where $L_v$ is the viral loadproduced, and $HP_c$ is the number of health points of the contagious person who spreads the virus):
+
+
+
+
+
 Allowed libraries:
 
 
