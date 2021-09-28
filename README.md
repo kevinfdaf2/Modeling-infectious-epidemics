@@ -7,10 +7,14 @@ load_people.py use a2_sample_set.txt
 simulation.py use class in load_people
 
 
-visul_curve.py imports all function in simulation
+visul_curve.py imports all functions in simulation
 
 
 File link load_people.py -> simulation.py -> visul_curve.py -> show result
+
+  
+*   _if the import file code doesn't work, create an empty file call: \__init__.py_
+
 
 
 
