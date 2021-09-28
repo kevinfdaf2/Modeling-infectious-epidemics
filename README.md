@@ -92,7 +92,7 @@ The virus spreads when a contagious person2 passes a viral load to a person they
 The viral load produced by a contagious person is given by the following formula (where L_v is the viral loadproduced, and HP_c is the number of health points of the contagious person who spreads the virus):
 
 
-<img src="https://render.githubusercontent.com/render/math?math=L_v = 5 + \frac{(HP_c - 25)^2}{62}">
+<img src="https://render.githubusercontent.com/render/math?math=L_v = 5 \plus+ \frac{(HP_c - 25)^2}{62}">
 
 
 A small viral load will not make a healthy patient sick, but a larger viral load or viral loads from several people might reduce a patient’s health to the point that they become contagious with the disease and begin to spread it to others. 
