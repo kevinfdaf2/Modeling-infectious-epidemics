@@ -1,6 +1,19 @@
 # Modeling-infectious-epidemics
 FIT9136-Assignment-2
 
+load_people.py use a2_sample_set.txt
+
+
+simulation.py use class in load_people
+
+
+visul_curve.py imports all function in simulation
+
+
+File link load_people.py -> simulation.py -> visul_curve.py -> show result
+
+
+
 ## Background
 
 In the past, there have been viral disease epidemics (including the 1918 influenza pandemic) which have got out of hand. We would like to simulate the way such diseases spread, to better understand how this happens.
