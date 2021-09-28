@@ -72,10 +72,10 @@ Each day, a person may or may not visit another person for a meeting. For each p
 The virus spreads when a contagious person2 passes a viral load to a person they are visiting, or a person who has visited them. The term ‘viral load’ is a measure of the quantity of virus in the air which the other person breathes in when they are visiting and/or being visited by any contagious person. A person can be affected by a viral load even if they are already partly sick.
 
 
-The viral load produced by a contagious person is given by the following formula (where $L_v$ is the viral loadproduced, and HP_c is the number of health points of the contagious person who spreads the virus):
+The viral load produced by a contagious person is given by the following formula (where L_v is the viral loadproduced, and HP_c is the number of health points of the contagious person who spreads the virus):
 
 
-
+L_v = 5 + \frac{(HP_c - 25)^2}{62}
 
 
 Allowed libraries:
