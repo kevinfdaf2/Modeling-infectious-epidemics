@@ -13,7 +13,7 @@ visul_curve.py imports all functions in simulation
 File link load_people.py -> simulation.py -> visul_curve.py -> show result
 
   
-*   _if the import file code doesn't work, create an empty file call: \__init__.py
+*   _if the import file code doesn't work, create an empty file call: \_\_init\_\_.py
 
 
 
