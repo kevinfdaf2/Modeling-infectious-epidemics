@@ -4,7 +4,7 @@
 # and the health point of patient zero, then show the graph of the simulation.
 
 from simulation import *
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 
 default_health = 75
