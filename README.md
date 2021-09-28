@@ -75,7 +75,7 @@ The virus spreads when a contagious person2 passes a viral load to a person they
 The viral load produced by a contagious person is given by the following formula (where L_v is the viral loadproduced, and HP_c is the number of health points of the contagious person who spreads the virus):
 
 
-L_v = 5 + \frac{(HP_c - 25)^2}{62}
+$$L_v = 5 + \frac{(HP_c - 25)^2}{62}$$
 
 
 Allowed libraries:
