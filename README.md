@@ -12,8 +12,19 @@ visul_curve.py imports all functions in simulation
 
 File link load_people.py -> simulation.py -> visul_curve.py -> show result
 
-  
+
 *   _if the import file code doesn't work, create an empty file call: \_\_init\_\_.py
+
+
+
+Allowed libraries:
+
+- math
+- random
+- numpy
+- scipy
+- matplotlib
+- pandas
 
 
 
@@ -117,22 +128,4 @@ if HP >= 50, HP = HP -(2.0 X L_V)
 
 
 
-Allowed libraries:
 
-
-  • math
-  
-  
-  • random
-  
-  
-  • numpy
-  
-  
-  • scipy
-  
-  
-  • matplotlib
-  
-  
-  • pandas
